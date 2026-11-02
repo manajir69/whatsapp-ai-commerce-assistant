@@ -1,0 +1,14 @@
+.current-question-label{margin-top:15px;color:#77817c;font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase}
+.ticket-context{margin:15px 0;padding:13px;background:#f6f8f3;border:1px solid #e2e8dc;border-radius:9px}
+.context-title{display:flex;justify-content:space-between;gap:10px;margin-bottom:9px;font-size:11px;font-weight:700;color:#52655a}
+.context-title span{font-size:9px;font-weight:400;color:var(--muted)}
+.context-message{max-width:92%;margin:7px 0;padding:8px 10px;border-radius:8px;background:#fff;border:1px solid #e7ebe3}
+.context-message.bot{margin-left:auto;background:#eaf1e3}
+.context-message>div{display:flex;justify-content:space-between;gap:10px}
+.context-message strong,.context-message time{font-size:9px;color:#718078}
+.context-message p{margin:3px 0 0;font-size:11px;line-height:1.45;overflow-wrap:anywhere}
+.context-image{display:block;max-width:150px;max-height:110px;object-fit:cover;border-radius:6px;margin-top:6px}
+.direct-reply{margin:18px 0;padding:16px;background:#f6f8f3;border:1px solid #e2e8dc;border-radius:10px}
+.direct-reply label{margin-top:0}.direct-reply textarea{min-height:82px}.direct-reply .actions{margin-top:10px}
+.inline-tool{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:14px}
+@media(max-width:760px){.context-title{align-items:flex-start;flex-direction:column;gap:2px}.context-message{max-width:96%}}
