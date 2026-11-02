@@ -1,0 +1,29 @@
+# Secrets and local configuration
+/config.php
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# Runtime and customer content
+/storage/
+/logs/
+/backups/
+/uploads/
+*.log
+*.sqlite*
+*.db
+*.csv
+*.xlsx
+*.jsonl
+*.zip
+*.tar*
+*.gz
+# Local tooling
+/node_modules/
+/vendor/
+.DS_Store
+.idea/
+.vscode/
